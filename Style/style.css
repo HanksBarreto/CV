@@ -70,5 +70,13 @@ footer {
    }*/ }
   footer a {
     text-shadow: 3px  2px 5px; }
+  footer .form {
+    display: inline-flex;
+    margin: 10px 0px 10px; }
+  footer label {
+    font-size: 20px;
+    font-family: "Comic Neue", "cursive"; }
+  footer button {
+    margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */

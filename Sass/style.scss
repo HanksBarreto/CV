@@ -84,15 +84,24 @@ footer{
             @include replace-text;
         }
     }*/
-    
-   
-
-  
-a{
+ a{
 text-shadow: 3px  2px 5px;
 } 
+   
+
+.form{
+    display: inline-flex;
+    margin: 10px 0px 10px;
+
+    }
+    label{
+    font-size: 20px;
+    font-family: $FontComic;
+ 
+    }
+    button{
+        margin-left: 10px;
+    }
 
 }
-
-    
    
