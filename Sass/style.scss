@@ -1,0 +1,102 @@
+@import 'import';
+
+
+.head{
+    background-image: $ImgFondo;
+    @include backgroundAll;
+.foto {
+    height: 200px;
+     width: 200px;
+    background-image:$ImgUser;
+    background-repeat: no-repeat;
+    background-size: $widthHeight;
+  background-position:$center;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin: $magin;
+    
+}
+    
+    
+font-family: $FontLobster;    
+}
+.container{
+    p{
+        font-family: $FontComic;
+        text-align:$center;
+    }
+}
+.art{
+    .primary{
+        color: rgb(64, 110, 131);
+        
+        font-size: 25px;
+        font-family:$FontComic;
+        text-shadow:3px 5px 3px;
+        
+    }
+    h2{
+        font-size: 35px;
+        font-family: $FontComic;
+    }
+    h2:hover{
+        text-shadow: 0px 6px 5px;
+    }
+}
+.cap{
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius:4px;
+    
+.rounded{
+    width:$width;
+}
+}
+.display-1{
+    font-family: $FontComic;
+    font-size: small;
+    padding: $magin;
+    margin: 0%;
+
+}
+ul{
+    li{
+        display: block;
+        padding: 20px;
+    }
+}
+.page-footer{
+margin: 0%;
+}
+footer{
+    width: $width;
+    height: 100%;
+    
+   @include background;
+    border-radius: 10px;
+    box-shadow: 12px 26px 35px;
+   /* .flec{
+        .box{
+            @include box;
+        }
+        .box:hover{
+            @include replace-text;
+        }
+    }*/
+    
+   
+    p{
+      text-align: $center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+    color:rgb(7, 4, 4);  
+  }
+a{
+text-shadow: 3px  2px 5px;
+} 
+
+}
+
+    
+   

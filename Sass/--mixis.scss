@@ -1,0 +1,42 @@
+@mixin backgroundAll {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: $widthHeight;
+    background-position: center;
+}
+@mixin background {
+    background-repeat: no-repeat;
+    background-size: $widthHeight;
+    background-position: center;
+}
+@mixin box {
+    background-color: rgb(172, 0, 0);
+    width:400px;
+    height:200px;
+}
+@mixin replace-text($hover:true){
+@if $hover{
+    background-image:url('/Img/curso.png');
+    background-image: no-repeat;
+    background-size: $widthHeight;
+    transition-duration: 4000ms;
+    text-transform: uppercase;
+    .p{
+        font-size: 20px;
+        color:rgb(255, 255, 255);
+        font-family: $FontComic;
+    }
+}
+}
+
+@mixin go($hover:true) {
+    @if $hover{
+        position: relative;
+       $left:150px;
+        }
+    
+    }
+
+    
+  
+  
