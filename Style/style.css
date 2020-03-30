@@ -68,11 +68,6 @@ footer {
            @include replace-text;
        }
    }*/ }
-  footer .p {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color: #c7efff; }
   footer a {
     text-shadow: 3px  2px 5px; }
 
