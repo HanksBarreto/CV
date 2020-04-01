@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: $widthHeight;
-    background-position: center;
+    background-position: initial;
 }
 @mixin background {
     background-repeat: no-repeat;

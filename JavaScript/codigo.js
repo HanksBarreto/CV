@@ -1,8 +1,8 @@
-    Swal.fire({
+    /*Swal.fire({
         title:'Bienvenidos a mi sitio Web',
         text:'espero que te guste',
         icon: 'info'
-    });
+    });*/
     function clickk(event) {
         var input = document.getElementById('input');
         if (input.value ==='') {
@@ -18,9 +18,9 @@
                 title: 'Correo enviado con exito'+input.value
             });
         }
-       
+    event.preventDefault()   
 }
- event.preventDefault()
+ 
   
     
     
