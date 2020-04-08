@@ -1,5 +1,7 @@
 @import 'import';
-
+body{
+    background-color:rgb(47, 213, 255);
+}
 
 .head{
     background-image: $ImgFondo;
@@ -36,7 +38,7 @@ font-family: $FontLobster;
         
     }
     h2{
-        font-size: 35px;
+        font-size: 34px;
         font-family: $FontComic;
     }
     h2:hover{
@@ -86,4 +88,9 @@ ul{
     }
 
 }
-   
+.display-4{
+    font-family:$FontLobster;
+    font-size: 50px;
+    color:orange;
+    
+}
