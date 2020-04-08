@@ -3,26 +3,13 @@
         text:'espero que te guste',
         icon: 'info'
     });*/
-    alert('ddd');
+   
  
-   document.getElementById('btn').addEventListener('click', function (e) {
-    var input = document.getElementById('input').value;
-    if (input.value ==='') {
-       
-      Swal.fire({
-
-        title: 'Ingrese su correo ',
-     
-    });
-    }else{
-        Swal.fire({
-
-            title: 'Correo enviado con exito'+input.value
-        });
-    }
-e.preventDefault()  
+   document.getElementById('btn').addEventListener('submit', function (e) {
+  alert('Hola');
+ e.preventDefault();
 });
-    
+     
     
 
     
