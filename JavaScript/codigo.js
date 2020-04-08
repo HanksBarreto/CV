@@ -3,25 +3,25 @@
         text:'espero que te guste',
         icon: 'info'
     });*/
-    function clickk(event) {
-        var input = document.getElementById('input');
-        if (input.value ==='') {
-           
-          Swal.fire({
-
-            title: 'Ingrese su correo ',
-         
-        });
-        }else{
-            Swal.fire({
-
-                title: 'Correo enviado con exito'+input.value
-            });
-        }
-    event.preventDefault()   
-}
+    alert('ddd');
  
-  
+   document.getElementById('btn').addEventListener('click', function (e) {
+    var input = document.getElementById('input').value;
+    if (input.value ==='') {
+       
+      Swal.fire({
+
+        title: 'Ingrese su correo ',
+     
+    });
+    }else{
+        Swal.fire({
+
+            title: 'Correo enviado con exito'+input.value
+        });
+    }
+e.preventDefault()  
+});
     
     
 
