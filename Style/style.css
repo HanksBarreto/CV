@@ -27,7 +27,7 @@ body {
   color: #406e83;
   font-size: 25px;
   font-family: "Comic Neue", "cursive";
-  text-shadow: 3px 5px 3px; }
+  text-shadow: 2px 3px 2px; }
 .art h2 {
   font-size: 34px;
   font-family: "Comic Neue", "cursive"; }
@@ -42,26 +42,19 @@ body {
   .cap .rounded {
     width: 100%; }
 
-footer .display-1 {
-  font-family: "Comic Neue", "cursive";
-  font-size: small;
-  padding: auto;
-  margin: 0%; }
-footer ul li {
-  display: block;
-  padding: 20px; }
-footer .form {
-  display: inline-flex;
-  margin: 10px 0px 10px; }
-footer label {
-  font-size: 20px;
-  font-family: "Comic Neue", "cursive"; }
-footer button {
-  margin-left: 10px; }
-
 .display-4 {
   font-family: "Lobster", cursive;
   font-size: 50px;
   color: orange; }
+
+.tada {
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite; }
+
+.zoomInDown {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite; }
 
 /*# sourceMappingURL=style.css.map */

@@ -34,7 +34,7 @@ font-family: $FontLobster;
         
         font-size: 25px;
         font-family:$FontComic;
-        text-shadow:3px 5px 3px;
+        text-shadow:2px 3px 2px;
         
     }
     h2{
@@ -56,41 +56,21 @@ font-family: $FontLobster;
 }
 }
 
-
-footer{
-.display-1{
-    font-family: $FontComic;
-    font-size: small;
-    padding: $magin;
-    margin: 0%;
-
-}
-ul{
-    li{
-        display: block;
-        padding: 20px;
-    }
-}
-   
-
-.form{
-    display: inline-flex;
-    margin: 10px 0px 10px;
-
-    }
-    label{
-    font-size: 20px;
-    font-family: $FontComic;
- 
-    }
-    button{
-        margin-left: 10px;
-    }
-
-}
 .display-4{
     font-family:$FontLobster;
     font-size: 50px;
     color:orange;
     
+}
+.tada{
+    
+        animation-duration: 1s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+      
+}
+.zoomInDown{
+    animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
 }
